@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    height: 93vh;
+    background-color: #000000;
+    padding-left: 20px;
+    padding-top: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #222222
+}
+
+.logo img {
+    width: 120px;
+}
+
+.menu, .bottom-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu a, .bottom-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.menu a:hover, .bottom-menu a:hover {
+    background-color: #333333;
+}
+
+.profile-container {
+    margin-left: 360px;
+    padding: 20px;
+    width: 60%;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.sidebar-profile-pic {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 60px;
+}
+
+
+.profile-info {
+    margin-left: 20px;
+}
+
+.profile-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-sub-bio {
+    color: grey;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.profile-bio {
+    font-size: 14px;
+    gap: 0px;
+    flex-direction: column;
+    display: flex;
+}
+
+.new-highlight {
+    text-align: start;
+    margin-left: 35px;
+    margin-top: 20px;    
+}
+
+.highlight-styles{
+    margin-left:9px;
+}
+
+.plus-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #222;
+    border-radius: 50%;
+    margin: 0 auto;
+    align-self: flex-start;
+    align-content: flex-start;
+    justify-self: flex-start;
+    justify-content: flex-start;
+}
+
+.profile-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    border-top: 2px solid #222;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post-filters {
+    display: flex;
+    gap: 8px;
+}
+
+.profile-nav i {
+    color: #8798A1;
+}
+
+.menu .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.profile-posts{
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+}
